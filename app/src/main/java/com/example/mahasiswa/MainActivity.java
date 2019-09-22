@@ -18,6 +18,8 @@ public class MainActivity extends AppCompatActivity {
 
         Button listBtn = findViewById(R.id.btnList);
 
+        Button kelolaBtn = findViewById(R.id.btnKelola);
+
         mahasiswaBtn.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
@@ -25,7 +27,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
-
+        kelolaBtn.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent i = new Intent(MainActivity.this,ReadActivity.class);
+                startActivity(i);
+            }
+        });
         listBtn.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
