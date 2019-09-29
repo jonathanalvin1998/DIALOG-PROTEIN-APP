@@ -9,20 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".InClassRecyclerView"></activity>
-        <activity android:name=".RecyclerViewActivity">
+        <activity android:name=".RecyclerViewMhsActivity"></activity>
+        <activity android:name=".InClassRecyclerView" />
+        <activity android:name=".RecyclerViewActivity"></activity>
+        <activity android:name=".UpdateActivity" />
+        <activity android:name=".ReadActivity" />
+        <activity android:name=".CreateActivity" />
+        <activity android:name=".ListActivity" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".UpdateActivity" />
-        <activity android:name=".ReadActivity" />
-        <activity android:name=".CreateActivity" />
-        <activity android:name=".ListActivity" />
-        <activity android:name=".Main2Activity" />
-        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>

@@ -20,6 +20,10 @@ public class MainActivity extends AppCompatActivity {
 
         Button kelolaBtn = findViewById(R.id.btnKelola);
 
+        Button dataBtn = findViewById(R.id.btnDataMahasiswa);
+
+        Button dataSIBtn = findViewById(R.id.btnDataMahasiswaSI);
+
         mahasiswaBtn.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
@@ -27,10 +31,24 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+        dataSIBtn.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent i = new Intent(MainActivity.this,RecyclerViewMhsActivity.class);
+                startActivity(i);
+            }
+        });
         kelolaBtn.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
                 Intent i = new Intent(MainActivity.this,ReadActivity.class);
+                startActivity(i);
+            }
+        });
+        dataBtn.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent i = new Intent(MainActivity.this,RecyclerViewActivity.class);
                 startActivity(i);
             }
         });
