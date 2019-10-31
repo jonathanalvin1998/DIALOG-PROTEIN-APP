@@ -9,9 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RecyclerViewMhsActivity"></activity>
+        <activity android:name=".ProteinTrackerAppActivity"></activity>
+        <activity android:name=".MenuActivity"></activity>
+        <activity android:name=".RecyclerViewMhsActivity" />
         <activity android:name=".InClassRecyclerView" />
-        <activity android:name=".RecyclerViewActivity"></activity>
+        <activity android:name=".RecyclerViewActivity" />
         <activity android:name=".UpdateActivity" />
         <activity android:name=".ReadActivity" />
         <activity android:name=".CreateActivity" />

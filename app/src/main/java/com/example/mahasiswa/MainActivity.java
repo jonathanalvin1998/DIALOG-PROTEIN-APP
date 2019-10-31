@@ -24,6 +24,15 @@ public class MainActivity extends AppCompatActivity {
 
         Button dataSIBtn = findViewById(R.id.btnDataMahasiswaSI);
 
+        Button proteinBtn = findViewById(R.id.btnProteinTracker);
+
+        proteinBtn.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent i = new Intent(MainActivity.this,ProteinTrackerAppActivity.class);
+                startActivity(i);
+            }
+        });
         mahasiswaBtn.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){

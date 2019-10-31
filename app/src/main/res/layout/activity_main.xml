@@ -49,6 +49,16 @@
         app:layout_constraintTop_toBottomOf="@+id/btnMahasiswa" />
 
     <Button
+        android:id="@+id/btnProteinTracker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="224dp"
+        android:text="Protein Tracker"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMahasiswa" />
+
+    <Button
         android:id="@+id/btnKelola"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
